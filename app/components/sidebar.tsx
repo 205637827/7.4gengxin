@@ -117,10 +117,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          青山Ai
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          本站为免费公益站，为防止域名被墙点击下方QQ图标进群。购买独享账号可<a href="http://ka.91bbs.xyz">点击进入账号商城</a>.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -173,7 +173,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href="https://jq.qq.com/?_wv=1027&k=iO2Enl9c" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
